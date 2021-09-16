@@ -23,7 +23,7 @@ addCommentButton.addEventListener("click", function () {
   button.onclick = function () {
     this.closest("li").remove();
   };
-
+  comment.classList.add("comment");
   comment_rating.classList.add("comment-rating");
   comment_text.classList.add("comment-text");
 
