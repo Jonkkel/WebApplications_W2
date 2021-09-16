@@ -25,7 +25,7 @@ addCommentButton.addEventListener("click", function () {
   };
 
   comment_rating.classList.add("comment-rating");
-  comment_text.classList.add("comment_text");
+  comment_text.classList.add("comment-text");
 
   comment_rating.innerHTML = text;
   comment_text.innerHTML = textArea.value;
