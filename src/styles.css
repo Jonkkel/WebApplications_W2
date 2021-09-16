@@ -1,18 +1,28 @@
 body {
-  font-family: Garamond;
+  font-family: "Garamond";
+}
+
+table,
+tr,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
 .header {
   font-style: italic;
-  background-color: #b93939;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 #menu-table {
   text-align: left;
   background-color: #f2f2f2;
   width: 100%;
+}
+
+#menu-table th {
+  background-color: #10e06e;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .odd {
