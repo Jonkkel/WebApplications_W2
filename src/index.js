@@ -39,7 +39,7 @@ addCommentButton.addEventListener("click", function () {
   list.appendChild(li);
 });
 
-const deleteCommentButton = document.getElementById("delete-comment");
+const deleteCommentButton = document.getElementById("remove-comment");
 deleteCommentButton.addEventListener("click", function () {
   const elems = document.getElementsByClassName("remove-comment");
   let i = 0;
