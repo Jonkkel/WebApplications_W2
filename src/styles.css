@@ -1,7 +1,8 @@
 body {
   font-family: Garamond;
 }
-.header > th {
+
+.header {
   font-style: italic;
   background-color: #b93939;
   padding-top: 5px;
@@ -16,10 +17,6 @@ body {
 
 .odd {
   background-color: gainsboro;
-}
-
-.even {
-  background-color: #f2f2f2;
 }
 
 .menu-layout {
