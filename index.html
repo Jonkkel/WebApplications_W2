@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <h1><em>Hello World!</em></h1>
+      <div id="app"></div>
+
+      <table id="menu-table">
+        <tr class="header">
+          <th>Name</td>
+          <th>Price</td>
+        </tr>
+        <tr class="odd">
+          <td>Soup</td>
+          <td>8,00€</td>
+        </tr>
+        <tr class="even">
+          <td>Minced meat</td>
+          <td>9,00€</td>
+        </tr>
+        <tr class="odd">
+          <td>Vegetables and meat</td>
+          <td>12,00€</td>
+        </tr>
+        <tr class="even">
+          <td>Potato soup</td>
+          <td>15,00€</td>
+        </tr>
+        <tr class="odd">
+          <td>Dumplings</td>
+          <td>55,00€</td>
+        </tr>
+      </table>
+      <br>
+      <textarea id="comment" rows="2" cols="20">Add comment!!</textarea>
+      <br>
+
+      <select>
+        <option value="1">Super good</option>
+        <option value="2">Great</option>
+        <option value="3">Okey</option>
+        <option value="4">Wouldn't recommend</option>
+      </select>
+      <br>
+      <br>
+      <button id="add-comment" >add</button>
+      <button id="delete-comment" >delete</button>
+      <br>
+      <ul id = "list">
+        <div class="comment">
+          <div class="comment-rating"></div>
+          <div class="comment-text"></div>
+        </div>
+      </ul>
+    </div>
+
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
